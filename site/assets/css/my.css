@@ -6038,6 +6038,14 @@ a.btn:visited {
 	color: white;
 }
 
+a:visited {
+	color: inherit;
+}
+
+a:focus, a:active {
+	color: inherit;
+}
+
 p {
 	margin: 0;
 	padding: 0;
@@ -6589,19 +6597,17 @@ p {
 
 .main-menu.active {
 	position: fixed;
-	/*top: 50px;*/
 	top: 0;
 	left: 0;
 	right: 0;
 	bottom: 0;
 	display: block;
-	/*padding-top: 40px;*/
 	padding-top: 100px;
 	margin: 0;
 	width: 100%;
 	height: 100%;
 	background: white;
-	z-index: 1000;
+	z-index: 10000;
 }
 
 .main-menu.active li {
@@ -6636,6 +6642,9 @@ p {
 .main-menu.ru a{
 	font-weight: normal;
 }
+/*.main-menu.ru.active a{*/
+/*	color: #2F3055;*/
+/*}*/
 
 .main-menu.ru li{
 	padding: 20px;
@@ -8009,11 +8018,6 @@ p {
 	color: inherit;
 }
 
-.news__item-text h1 a:hover,
-.news__item-text h2 a:hover {
-	color: blue;
-}
-
 .news__item-text h1 {
 	font-size: 28px;
 }
@@ -8094,6 +8098,7 @@ p {
 }
 @media screen and (max-width: 600px) {
 	.news__item.single .news__block {
+		padding-top: 80px;
 		padding-left: 15px;
 		padding-right: 15px;
 	}
