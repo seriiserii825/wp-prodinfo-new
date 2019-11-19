@@ -120,7 +120,7 @@ get_header(); ?>
                 </div>
 			<?php endforeach; ?>
         </div>
-        <a class="btn arrow" href="<?php echo get_permalink(14); ?>"><?php echo carbon_get_theme_option('crb_directions_button' . get_lang()); ?> →</a>
+        <a class="btn arrow" href="<?php echo get_permalink(14); ?>"><?php echo carbon_get_theme_option('crb_members_button' . get_lang()); ?> →</a>
     </div>
 </section>
 <div class="idea">
