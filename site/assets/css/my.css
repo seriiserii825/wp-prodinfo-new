@@ -6628,8 +6628,8 @@ p {
 
 .main-menu a {
 	display: block;
-	font-family: 'Avenir Light', sans-serif;
-	/*font-family: 'Montserrat Medium', sans-serif;*/
+	/*font-family: 'Avenir Light', sans-serif;*/
+	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
 	font-weight: bold;
 	text-decoration: none;
@@ -7624,6 +7624,20 @@ p {
 .advantage__item:last-child {
 	padding: 48px 0 40px;
 }
+@media screen and (max-width: 600px) {
+	.advantage__item:nth-child(2) {
+		padding: 30px 0 40px;
+	}
+
+	.advantage__item:nth-child(3) {
+		padding: 30px 0 40px;
+	}
+
+	.advantage__item:last-child {
+		padding: 30px 0 40px;
+	}
+}
+
 
 .advantage__item:last-child .section__title {
 	margin-bottom: 31px;
@@ -8548,7 +8562,7 @@ body.category-news .benefice {
 	.advantage-content .section__title {
 		position: relative;
 		left: 0;
-		margin-bottom: 14px;
+		margin-bottom: 20px;
 		padding-bottom: 14px;
 		font-size: 20px;
 	}
