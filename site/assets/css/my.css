@@ -6640,7 +6640,7 @@ p {
 	transition: all .4s ease;
 }
 .main-menu.ru a{
-	font-weight: normal;
+	/*font-weight: normal;*/
 }
 /*.main-menu.ru.active a{*/
 /*	color: #2F3055;*/
@@ -8361,7 +8361,6 @@ p {
 
 .wpglobus-lang .list {
 	position: relative;
-	top: -2px;
 }
 
 @media screen and (max-width: 1100px) {
@@ -8384,6 +8383,7 @@ p {
 .wpglobus-selector-link:visited,
 .wpglobus-selector-link {
 	font-size: 15px;
+	line-height: 1;
 	font-weight: bold;
 	text-decoration: none;
 	color: #A0A5C0;
@@ -8460,7 +8460,7 @@ body.category-news .benefice {
 @media screen and (max-width: 600px) {
 	.wpglobus-lang {
 		position: absolute;
-		top: 110px;
+		top: 90px;
 		left: 50%;
 		transform: translateX(-50%);
 		margin: 0;
