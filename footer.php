@@ -58,7 +58,7 @@
             </a>
         </li>
         <li class="socials-bottom__item facebook">
-            <a href="https://msng.link/fm/prodinfo.md">
+            <a href="https://m.me/prodinfo.md">
                 <svg data-bbox="17 6 17 17" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 30" height="30" width="50" data-type="shape">
                     <g>
                         <path d="M33.062 23H17.938a.938.938 0 0 1-.938-.938V6.938c0-.518.42-.938.938-.938h15.124c.518 0 .938.42.938.938v15.124c0 .518-.42.938-.938.938zm-4.547 0v-6.462h2.228l.334-2.518h-2.562v-1.608c0-.73.208-1.227 1.282-1.227h1.37V8.933c-.237-.031-1.05-.1-1.996-.1-1.974 0-3.326 1.174-3.326 3.329v1.858H23.61v2.518h2.234V23h2.67z" fill-rule="evenodd"></path>
@@ -82,7 +82,7 @@
 <!--    <a target="_blank" class="footer-buttons__phone" href="tel:--><?php //echo $phoneClear; ?><!--"><i class="fas fa-phone"></i></a>-->
 <!--    <a target="_blank" class="footer-buttons__facebook" href="https://msng.link/fm/euconsult.md"><i class="fab fa-facebook-square"></i></a>-->
 <!--</div>-->
-<a target="_blank" href="https://msng.link/fm/prodinfo.md" class="messenger">
+<a target="_blank" href="https://m.me/prodinfo.md" class="messenger">
     <img src="<?php echo get_template_directory_uri().'/site/assets/i/MESSENGER.png'; ?>" alt="">
 </a>
 <a href="#" id="js-up" class="up"><img src="<?php echo get_template_directory_uri().'/site/assets/i/svg/up-arrow.svg'; ?>" alt=""></a>
